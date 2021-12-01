@@ -5,8 +5,7 @@ public class AuthenticationRequest {
     private String  username;
     private String  password;
 
-    public AuthenticationRequest (String jwt) {
-        //this.jwt = jwt;
+    public AuthenticationRequest () {
     }
 
     public AuthenticationRequest(String username,String password){
